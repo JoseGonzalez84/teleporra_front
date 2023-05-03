@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# TELEPORRA
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Esta aplicación está pensada para poder hacer apuestas con los amigos.
+
+Dejaré la información abajo para futuras referencias.
 
 ## Available Scripts
 
