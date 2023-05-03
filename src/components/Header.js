@@ -1,4 +1,5 @@
-import React from 'react';
+import React from 'react'
+import { Link } from 'react-router-dom'
 function Header() {
     return(
         <nav className="navbar" role="navigation" aria-label="main navigation">
@@ -16,21 +17,21 @@ function Header() {
 
             <div id="navbarBasicExample" className="navbar-menu">
                 <div className="navbar-start">
-                    <div class="navbar-item has-dropdown is-hoverable">
-                        <a class="navbar-link">
+                    <div className="navbar-item has-dropdown is-hoverable">
+                        <a className="navbar-link">
                         Apuestas
                         </a>
 
-                        <div class="navbar-dropdown">
-                        <a class="navbar-item" href='bets/new'>
+                        <div className="navbar-dropdown">
+                        <a className="navbar-item" href='/bet/new'>
                             Nueva
                         </a>
-                        <a class="navbar-item" href='bets/list'>
+                        <a className="navbar-item" href='/bet/list'>
                             Lista
                         </a>
-                        <hr class="navbar-divider" />
-                        <a class="navbar-item" href='contact'>
-                            Informar de un problema
+                        <hr className="navbar-divider" />
+                        <a className="navbar-item" href='/bet/1984'>
+                            Apuesta 1984
                         </a>
                         </div>
                     </div>
