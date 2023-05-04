@@ -7,7 +7,7 @@ const Footer = () => {
             <footer className='footer'>
                 <div className='content has-text-centered'>
                     <p>
-                        <strong>Teleporra</strong>, produly created in 2023 by <a href={CODE_HOSTED_URL}>Jose González</a>, collaborator of <strong>The Nutsy Company</strong>
+                        <strong>Teleporra</strong>, proudly created in 2023 by <a href={CODE_HOSTED_URL}>Jose González</a>, collaborator of <strong>The Nutsy Company</strong>
                     </p>
                     <p>
                         Code hosted in <a href={CODE_HOSTED_URL + "teleporra_front"}>GitHub</a>.

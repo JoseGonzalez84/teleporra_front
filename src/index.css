@@ -25,3 +25,15 @@ code {
 .app-body {
   padding: 1.5rem;
 }
+
+.score-row > div > div {
+  min-height: 10rem;
+}
+
+.score-row {
+
+}
+
+.big-size-text {
+  font-size: 5em;
+}

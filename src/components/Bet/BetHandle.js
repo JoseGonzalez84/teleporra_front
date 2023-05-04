@@ -1,9 +1,10 @@
 import React from 'react'
 import { useParams } from 'react-router-dom';
+import BetShow from './BetShow';
 
 const BetHandle = () => {
     const { param } = useParams();
-    console.log(param)
+
     switch (param) {
         case 'new':
             return(<>Nueva Apuesta</>)
@@ -11,7 +12,9 @@ const BetHandle = () => {
         case typeof undefined:
             return(<>Lista de apuestas</>)
         default:
-            return(<>Apuesta numero {param}</>)
+            return(
+                <BetShow />
+            )
     }
 }
 
