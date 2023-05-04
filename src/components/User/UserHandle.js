@@ -3,11 +3,18 @@ import UserLogin from './UserLogin'
 import UserRegister from './UserRegister'
 
 const UserHandle = (params) => {
+    let content;
     if (params.action === 'login') {
-        return(<UserLogin />)
+        content = <UserLogin />
     } else {
-        return(<UserRegister />)
+        content = <UserRegister />
     }
+
+    return(
+        <section className="section">
+            {content}
+        </section>
+    )
 }
 
 export default UserHandle

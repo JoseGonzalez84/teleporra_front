@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-function Header() {
+
+const Header = () => {
     return(
         <nav className="navbar" role="navigation" aria-label="main navigation">
             <div className="navbar-brand">
@@ -36,7 +37,7 @@ function Header() {
                         </div>
                     </div>
 
-                    <a className="navbar-item" href='bets'>
+                    <a className="navbar-item" href='/about'>
                         Información
                     </a>
 
@@ -45,10 +46,10 @@ function Header() {
                 <div className="navbar-end">
                     <div className="navbar-item">
                         <div className="buttons">
-                            <a className="button is-primary" href='register'>
+                            <a className="button is-primary" href='/register'>
                                 <strong>Registro</strong>
                             </a>
-                            <a className="button is-light" href="login">
+                            <a className="button is-light" href="/login">
                                 Entrar
                             </a>
                         </div>

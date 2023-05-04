@@ -1,15 +1,16 @@
 import React from 'react';
 
 const Footer = () => {
+    const CODE_HOSTED_URL = "https://github.com/JoseGonzalez84/"
     return(
         <>
             <footer className='footer'>
                 <div className='content has-text-centered'>
                     <p>
-                        <strong>Teleporra</strong>, produly created in 2023 by <a href="https://cognos.thenutsycompany.com/josegs}}">Jose González</a>
+                        <strong>Teleporra</strong>, produly created in 2023 by <a href={CODE_HOSTED_URL}>Jose González</a>, collaborator of <strong>The Nutsy Company</strong>
                     </p>
                     <p>
-                        Code hosted in <a href="https://cognos.thenutsycompany.com/teleporra/teleporra_front">Cognos</a>, the repository of <strong>The Nutsy Company</strong>
+                        Code hosted in <a href={CODE_HOSTED_URL + "teleporra_front"}>GitHub</a>.
                     </p>
                 </div>
             </footer>

@@ -3,10 +3,11 @@ import React from 'react'
 function UserLogin() {
     return(
         <>
-            <section className="section">
-                <h1 className="title">Entra para ver o hacer tus apuestas!</h1>
-                <div className="block">
-                <form className="box">
+            <div className="block columns is-mobile">
+                <h1 className="title has-text-centered column is-half is-offset-one-quarter">Entra para ver o hacer tus apuestas!</h1>
+            </div>
+            <div className="block columns is-mobile">
+                <form className="box column is-half is-offset-one-quarter">
                     <div className="field">
                         <label className="label">Email</label>
                         <div className="control">
@@ -24,7 +25,6 @@ function UserLogin() {
                     <button className="button is-primary">Sign in</button>
                 </form>
             </div>
-            </section>
         </>
     )
 }

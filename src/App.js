@@ -3,9 +3,9 @@ import './App.css';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 // Components
 import Splash from './components/Splash';
-import UserHandle from './components/UserHandle';
-import UserRegister from './components/UserRegister'
-import BetHandle from './components/BetHandle';
+import About from './components/About';
+import UserHandle from './components/User/UserHandle';
+import BetHandle from './components/Bet/BetHandle';
 
 function App() {
   return (
@@ -16,11 +16,9 @@ function App() {
             <Route path='/login' element={<UserHandle action='login' />}></Route>
             <Route path='/logout' element={<UserHandle action='logout' />}></Route>
             <Route path='/register' element={<UserHandle action='register' />}></Route>
-            <Route path='/bet/list' element={<BetHandle />}></Route>
-            <Route path='/bet/:id' element={<BetHandle />}></Route>
-            <Route path='/new-bet' element={<BetHandle action='new-bet' />}></Route>
-            <Route path='/about' element={<UserRegister />}></Route>
-          </Routes>11
+            <Route path='/bet/:param' element={<BetHandle />}></Route>
+            <Route path='/about' element={<About />}></Route>
+          </Routes>
         </BrowserRouter>
     </div>
   );
